@@ -398,8 +398,8 @@ src_install() {
   <dd>
     The <c>eapply</c> command is a simplified substitute for <c>epatch</c>
     (from <c>eutils.eclass</c>), implemented in the package manager.
-    The patches from its file or directory arguments are applied using patch
-    <c>-p1</c>, but it accepts <c>patch(1)</c> options from GNU patch to
+    The patches from its file or directory arguments are applied using <c>patch
+    -p1</c>, but it accepts <c>patch(1)</c> options from GNU patch to
     override default behavior.
   </dd>
   <dt><c>eapply_user</c> support</dt>
